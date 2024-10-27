@@ -51,10 +51,10 @@ The primary files in this project include:
 1. **Clone the repository:**
    Open your terminal or command prompt and run:
 
-   '''bash
-   git clone https://github.com/Kobe-Martinez/Keylogger.git
-   cd Keylogger
-   '''
+'''bash
+git clone https://github.com/Kobe-Martinez/Keylogger.git
+cd Keylogger
+'''
 
 2. **Install required libraries:** 
    You can install all required libraries by downloading the requirements.txt file and running:
