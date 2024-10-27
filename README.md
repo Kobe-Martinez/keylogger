@@ -1,6 +1,8 @@
 # Keylogger Project
 
+
 ## Overview
+
 
 This Keylogger project captures keystrokes, clipboard data, system information, screenshots, and audio recordings on a Windows machine. It encrypts the collected data and sends it via email using the Gmail API. Once the encrypted emails have been received, the user must download them into the main file path and run the decryption file to retrieve the data. 
 
@@ -28,19 +30,20 @@ This project serves educational purposes only and should not be used for malicio
 - Required libraries (see below for installation)
 - Gmail account for email functionality
 
+
 ## Project Structure
 
 The primary files in this project include:
 
-Keylogger.py: Main script to capture keystrokes, screenshots, system information, clipboard data, and microphone recordings.
+1. Keylogger.py: Main script to capture keystrokes, screenshots, system information, clipboard data, and microphone recordings.
 
-encryption_util.py: Contains utilities to generate an encryption key and encrypt files.
+2. encryption_util.py: Contains utilities to generate an encryption key and encrypt files.
 
-decryption_util.py: Provides a method to decrypt the encrypted files.
+3. decryption_util.py: Provides a method to decrypt the encrypted files.
 
-credentials.json: Contains client information required for Gmail OAuth 2.0 authentication. Obtained from Google Cloud Console.
+4. credentials.json: Contains client information required for Gmail OAuth 2.0 authentication. Obtained from Google Cloud Console.
 
-token.json: Stores access and refresh tokens after Gmail authentication. File is obtained from running the main script "Keylogger.py"
+5. token.json: Stores access and refresh tokens after Gmail authentication. File is obtained from running the main script "Keylogger.py"
 
 
 ## Installation
