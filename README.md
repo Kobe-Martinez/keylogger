@@ -124,7 +124,7 @@ This will allow only the listed users to bypass the "App not verified" screen an
 
 ## Usage
 
-1. Modify Paths: Before running the script, modify the file paths in ```bash Keylogger.py and decryption_util.py ``` according to your system's directory structure. Update the file_path variable to point to your project folder.
+1. Modify Paths: Before running the script, modify the file paths in ``` Keylogger.py and decryption_util.py ``` according to your system's directory structure. Update the file_path variable to point to your project folder.
 
 2. Configure Email Settings: Edit the Keylogger.py file and set the following variables:
 
@@ -141,7 +141,7 @@ This will allow only the listed users to bypass the "App not verified" screen an
 
    The script will start running and log keystrokes, clipboard data, system information, audio recordings, and screenshots. 
 
-To stop the logging process, press the ```bash Esc key ```. This will trigger the encryption and email-sending processes.
+To stop the logging process, press the ``` Esc key ```. This will trigger the encryption and email-sending processes.
 
 4. Download the Encrypted Files: Once the encrypted files have been sent to the desired email, download them to the main file path ensuring that it is in the same folder as Keylogger.py
 
