@@ -27,7 +27,7 @@ key_file_path = "encryption_key.key"
 key = generate_key(key_file_path)
 
 # Base file path
-file_path = "C:\\Users\\Kobe\\Desktop\\Resume_Project\\projKeylogger_1\\Project"
+file_path = "C:\\your\\file\\path\\here\\..."
 
 # File path extension for Windows
 extend = "\\"
@@ -36,7 +36,7 @@ extend = "\\"
 file_merge = file_path + extend
 
 # List of files to decrypt
-files_to_decrypt = ["test_audio.wav", "test_clipboard.txt", "test_key_log.txt", "test_screenshot.png", "test_systeminfo.txt"]
+files_to_decrypt = ["enter encrypted files here"]
 
 # Loop through each file and decrypt it
 for file in files_to_decrypt:
