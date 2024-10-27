@@ -145,7 +145,7 @@ To stop the logging process, press the ``` Esc key ```. This will trigger the en
 
 4. Download the Encrypted Files: Once the encrypted files have been sent to the desired email, download them to the main file path ensuring that it is in the same folder as Keylogger.py
 
-5. Modify the Decryption List and Run the Decryption file: To decrypt these files, you must modify the ```bash files_to_decrypt ```  list in ```bash decryption_util.py ```. Put all the encrypted files in this list, then execute the script using: 
+5. Modify the Decryption List and Run the Decryption file: To decrypt these files, you must modify the ``` files_to_decrypt ```  list in ``` decryption_util.py ```. Put all the encrypted files in this list, then execute the script using: 
 
 ```bash
 python decryption_util.py
