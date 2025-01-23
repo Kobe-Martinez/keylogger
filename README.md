@@ -34,7 +34,7 @@ This project serves educational purposes only and should not be used for malicio
 The primary files in this project include:
 
 ```bash
-1. **Keylogger.py**: Main script to capture keystrokes, screenshots, system information, clipboard data, and microphone recordings.
+1. **Keylogger.py** : Main script to capture keystrokes, screenshots, system information, clipboard data, and microphone recordings.
 
 2. **encryption_util.py**: Contains utilities to generate an encryption key and encrypt files.
 
