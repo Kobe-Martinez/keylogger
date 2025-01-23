@@ -1,9 +1,6 @@
 # Keylogger Project
 
 
-## Overview
-
-
 This keylogger project captures keystrokes, clipboard data, system information, screenshots, and audio recordings on a Windows machine. It encrypts the collected data and sends it via email using the Gmail API. Once the encrypted emails have been received, the user must download them into the main file path and run the decryption file to retrieve the data. 
 
 This project serves educational purposes only and should not be used for malicious activities.
