@@ -34,15 +34,15 @@ This project serves educational purposes only and should not be used for malicio
 The primary files in this project include:
 
 ```bash
-1. Keylogger.py: Main script to capture keystrokes, screenshots, system information, clipboard data, and microphone recordings.
+1. **Keylogger.py**: Main script to capture keystrokes, screenshots, system information, clipboard data, and microphone recordings.
 
-2. encryption_util.py: Contains utilities to generate an encryption key and encrypt files.
+2. **encryption_util.py**: Contains utilities to generate an encryption key and encrypt files.
 
-3. decryption_util.py: Provides a method to decrypt the encrypted files.
+3. **decryption_util.py**: Provides a method to decrypt the encrypted files.
 
-4. credentials.json: Contains client information required for Gmail OAuth 2.0 authentication. Obtained from Google Cloud Console.
+4. **credentials.json**: Contains client information required for Gmail OAuth 2.0 authentication. Obtained from Google Cloud Console.
 
-5. token.json: Stores access and refresh tokens after Gmail authentication. File is obtained from running the main script "Keylogger.py"
+5. **token.json**: Stores access and refresh tokens after Gmail authentication. File is obtained from running the main script "Keylogger.py"
 ```
 
 ## Installation
